@@ -10,11 +10,10 @@ namespace Beecrowd_1002
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter Radius: ");
             double R = Convert.ToDouble(Console.ReadLine());
-            double A = Math.PI * R * R;
-            Console.WriteLine("Area of circle is: \n" + A);
-
+            double n = 3.14159;
+            double A = n * R * R;
+            Console.WriteLine(A + "\n");
             Console.ReadLine();
         }
     }
